@@ -6,4 +6,10 @@
   text-decoration: none;
   font-family: 'Verdana', sans-serif;
 }
+
+.card {
+  border-radius: 10px;
+  width: 80%;
+  margin: 30px auto;
+}
 /*# sourceMappingURL=styles.css.map */
