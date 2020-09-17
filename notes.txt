@@ -1,0 +1,8 @@
+--> Ruleman de configuración 
+---->  Settings 
+-----> Extensions 
+------> Live Sass Compile
+--------> Settings
+----------> Formats
+------------> Edit in settings.json
+--------------> Cambiar el savePath por este: "savePath": "~/../css/"
