@@ -7,8 +7,6 @@ let randomQuote = async () => {
   console.log(arr);
   llenarHTML(arr[randomNum]);
 };
-<<<<<<< HEAD
-=======
 
 function llenarHTML(objeto) {
   textoFrase.innerHTML = objeto.quote;
@@ -16,7 +14,5 @@ function llenarHTML(objeto) {
   autorFrase.innerHTML = objeto.quote;
   console.log(objeto.quote);
 }
-<<<<<<< HEAD
 
 randomQuote();
-=======
