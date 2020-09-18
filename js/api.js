@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let urlFull = "http://quotes.stormconsultancy.co.uk/quotes.json";
 
 fetch(urlFull)
@@ -14,3 +15,5 @@ let randomQuote = async () => {
 };
 
 randomQuote();
+=======
+>>>>>>> ce0b8f038de4743415fb64b9ac1d66880e6d229a
