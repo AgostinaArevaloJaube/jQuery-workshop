@@ -6,13 +6,15 @@ let randomQuote = async () => {
     .then((data) => data.json())
     .then((data) => data);
   let randomNum = Math.floor(Math.random() * arr.length);
+  console.log(arr);
   llenarHTML(arr[randomNum]);
 };
 
-
 function llenarHTML(objeto) {
-    textoFrase.innerHTML = objeto.quote;
-    console.log(objeto.quote)
-    autorFrase.innerHTML = objeto.author; 
-    console.log(objeto.author)
+  textoFrase.innerHTML = objeto.quote;
+  console.log(objeto.quote);
+  autorFrase.innerHTML = objeto.quote;
+  console.log(objeto.quote);
 }
+
+randomQuote();
