@@ -1,17 +1,9 @@
-//ARRAY DE QUOTES
-var arrayQuotes = [];
+let urlFull = "http://quotes.stormconsultancy.co.uk/quotes.json";
 
-//DOM
-let textoFrase = document.getElementById("textoFrase");
-let autorFrase = document.getElementById("autorFrase");
-
-//PRUEBA
-textoFrase.innerHTML = "HOLA";
-autorFrase.innerHTML = "sdfsdfsdf";
-
-//
-textoFrase.innerHTML = "HOLA";
-
-autorFrase.innerHTML = "HOLA";
-
-//
+let randomQuote = async () => {
+  let arr = await fetch(urlFull)
+    .then((data) => data.json())
+    .then((data) => data);
+  let randomNum = Math.floor(Math.random() * arr.length);
+  llenarHTML(arr[randomNum]);
+};
