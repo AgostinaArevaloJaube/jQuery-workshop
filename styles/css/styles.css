@@ -41,6 +41,10 @@
   overflow: hidden;
 }
 
+.headerIMG {
+  min-width: 100%;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,4 +106,3 @@
 .article .paragraph {
   padding: 12px;
 }
-/*# sourceMappingURL=styles.css.map */
