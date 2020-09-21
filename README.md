@@ -1,10 +1,11 @@
 # jQuery-workshop
- Trabajo Práctico de Acámica
+
+Trabajo Práctico de Acámica
 
 ### Entorno
 
-* HTML
-* Sassy
-* Javascript
-* jQuery
-* Prettier
+-   HTML
+-   Sassy
+-   Javascript
+-   jQuery
+-   Prettier
