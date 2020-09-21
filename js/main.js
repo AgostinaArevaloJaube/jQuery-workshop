@@ -30,9 +30,7 @@ function llenarHTML(objeto) {
         ${objeto.results[i].abstract} 
         </p>
       </a>
-  
-    </div>
-  `
+    </div> `
     articulo.innerHTML = apendeame;
     seccion.appendChild(articulo);
   }
