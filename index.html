@@ -10,54 +10,65 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
   <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,500&display=swap"
+    rel="stylesheet">
 
   <!-- styles -->
   <link rel="stylesheet" href="styles/css/styles.css" />
 
-  <title>jQuery Workshop</title>
+  <title>News</title>
 </head>
 
 <body>
   <header>
-    <img src="assets/imgbin-quotation-marks-in-english-citation-symbol-quotation-HvNfk9jCYLtiuB6pwjyBSFGuC.png" alt="">
+    <a href="index.html" class="titleLink">
+      <h1 class="title">The New York Times</h1>
+    </a>
   </header>
+
+  <section class="overflowHidden">
+    <img src="assets/ny.png" alt="">
+  </section>
+
   <nav class="navbar navbar-light bg-light">
+
+    <a class="nav-item nav-link" href="#">Most Popular</a>
+    <a class="nav-item nav-link" href="#">Newest</a>
+
     <form class="form-inline">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+      <button class="btn btn-outline my-2 my-sm-0" type="submit">
         Search
       </button>
     </form>
   </nav>
 
-  <nav class="nav nav-pills nav-justified">
-    <a class="nav-item nav-link" href="#">Most popular</a>
-    <a class="nav-item nav-link" href="#">Newest</a>
-  </nav>
+  <section class="cards">
 
-  <article class="card p-3">
+    <article class="card-body">
+      <img class="articleImg" src="/assets/new-york.png" alt="">
 
-    <blockquote class="blockquote mb-0 card-body">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-        posuere erat a ante.
-      </p>
-      <footer class="blockquote-footer">
-        <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
-    </blockquote>
-  </article>
+      <div class="articleText">
+        <a href="article.html" class="articleLink">
+          <h3 class="articleTitle">
+            Lorem ipsum dolor sit amet.
+          </h3>
+        </a>
 
-  <blockquote class="blockquote mb-0 card-body">
-    <p id="textoFrase">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-    <footer class="blockquote-footer">
-      <small class="text-muted">
-        Someone famous in <cite title="Source Title">Source Title</cite>
-      </small>
-    </footer>
-  </blockquote>
+        <a href="#article.html" class="articleLink">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, vero saepe cum iure magnam quidem vitae
+            similique aperiam facilis adipisci perspiciatis id. Possimus dolor tenetur, odio quos eius eaque recusandae?
+          </p>
+        </a>
+
+      </div>
+    </article>
+
+  </section>
+
+
   </article>
 
   <!-- JavaScript -->
