@@ -4,12 +4,102 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
-.card {
+.title {
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  padding: 30px;
+  border-bottom: 1px lightgray solid;
+  text-decoration: none;
+}
+
+.titleLink {
+  text-decoration: none;
+  color: black;
+}
+
+.titleLink:link {
+  text-decoration: none;
+}
+
+.titleLink:visited {
+  text-decoration: none;
+}
+
+.titleLink:active {
+  text-decoration: none;
+}
+
+.titleLink:hover {
+  text-decoration: none;
+}
+
+.overflowHidden {
+  height: 180px;
+  overflow: hidden;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-link {
+  margin: 0 auto;
+  color: black;
+}
+
+.btn-outline {
+  border: 2px solid gray;
+}
+
+.card-body {
+  margin: 20px auto;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid lightgray;
   border-radius: 10px;
-  width: 80%;
-  margin: 30px auto;
+  -webkit-box-shadow: 0px 0px 28px 5px rgba(145, 145, 145, 0.3);
+          box-shadow: 0px 0px 28px 5px rgba(145, 145, 145, 0.3);
+}
+
+.articleImg {
+  width: 35%;
+}
+
+.articleText {
+  padding: 12px;
+  color: black;
+}
+
+.articleText .articleLink {
+  text-decoration: none;
+  color: black;
+}
+
+.articleText .articleTitle {
+  font-family: 'Playfair Display', serif;
+}
+
+.article {
+  margin: 20px auto;
+  width: 90%;
+}
+
+.article .articleText {
+  padding: 12px;
+  border-bottom: 1px solid lightgray;
+}
+
+.article .paragraph {
+  padding: 12px;
 }
 /*# sourceMappingURL=styles.css.map */
