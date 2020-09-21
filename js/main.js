@@ -38,7 +38,7 @@ function llenarHTML(objeto) {
     articulo.innerHTML = apendeame;
     seccion.appendChild(articulo);
   }
-}
+} //as
 
 function llenarHTMLSearch(objeto) {
   console.log(objeto.response.docs);
