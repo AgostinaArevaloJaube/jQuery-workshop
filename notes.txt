@@ -1,3 +1,5 @@
+Si no les compila el Watch Sass:
+
 --> Ruleman de configuración 
 ---->  Settings 
 -----> Extensions 
