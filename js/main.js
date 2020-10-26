@@ -74,7 +74,7 @@ const displaySearchNews = (objeto) => {
 };
 
 const displayMostPopularNews = (objeto) => {
-	console.log(objeto);
+  console.log(objeto);
 	$newsContainer.innerHTML = '';
 	for (let i = 0; i < objeto.results.length; i++) {
 		let $articulo = document.createElement('div');
@@ -119,3 +119,5 @@ $newestSection.addEventListener('click', () =>
 $mostPopularSection.addEventListener('click', () =>
 	fetchNews(mostPopularUrl, displayMostPopularNews)
 );
+
+fetchNews(mostPopularUrl, displayMostPopularNews)
