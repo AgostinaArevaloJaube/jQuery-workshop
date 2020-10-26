@@ -11,7 +11,7 @@ Desarrollar un diario digital que incluya una home con las noticias principales,
 ### Tecnologías
 
 -   VSCode
--       Git/ Github
+-   Git/ Github
 -   HTML
 -   Google Fonts
 -   Sassy
